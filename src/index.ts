@@ -21,7 +21,7 @@ function mapToTosho(list: any): Partial<ToshoEntry> {
 		seeders: list.seed,
 		leechers: list.leech,
 		torrent_downloaded_count: list.seed + list.leech,
-		timestamp: list.datlist.getTime() / 1000,
+		timestamp: list.date.getTime() / 1000,
 		total_size: sizeToBytes(list.size),
 		status: 'complete',
 	}
