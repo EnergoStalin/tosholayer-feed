@@ -11,5 +11,9 @@
     "@cloudflare/workers-types": "^4.20231218.0",
     "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "anime-file-parser": "github:EnergoStalin/AnimeParser#7a5192c3f90785ce4e7cb9025bbd4e786e6bcff7",
+		"animelayerjs": "^2.1.0"
   }
 }

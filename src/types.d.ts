@@ -1,0 +1,29 @@
+export interface ToshoEntry {
+	id:                       number;
+	title:                    string;
+	link:                     string;
+	timestamp:                number;
+	status:                   string;
+	tosho_id:                 number;
+	nyaa_id:                  number;
+	nyaa_subdom:              null;
+	anidex_id:                null;
+	torrent_url:              string;
+	torrent_name:             string;
+	info_hash:                string;
+	info_hash_v2:             null;
+	magnet_uri:               string;
+	seeders:                  number;
+	leechers:                 number;
+	torrent_downloaded_count: number;
+	tracker_updated:          null;
+	nzb_url:                  null;
+	total_size:               number;
+	num_files:                number;
+	anidb_aid:                number;
+	anidb_eid:                number;
+	anidb_fid:                null;
+	article_url:              null;
+	article_title:            null;
+	website_url:              string;
+}
